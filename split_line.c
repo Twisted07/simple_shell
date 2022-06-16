@@ -42,7 +42,6 @@ char *swap_char(char *input, int bool)
 	}
 	return (input);
 }
-
 /**
  * add_nodes - add separators and command lines in the lists
  *
@@ -78,6 +77,7 @@ void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 	} while (line != NULL);
 
 }
+
 
 /**
  * go_next - go to the next command line stored

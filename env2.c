@@ -57,6 +57,7 @@ void set_env(char *name, char *value, data_shell *datash)
 	datash->_environ[i + 1] = NULL;
 }
 
+
 /**
  * _setenv - compares env variables names
  * with the name passed.

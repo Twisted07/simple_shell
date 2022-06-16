@@ -41,7 +41,6 @@ void aux_help_unsetenv(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 
-
 /**
  * aux_help_general - Entry point for help information for the help builtin
  * Return: no return

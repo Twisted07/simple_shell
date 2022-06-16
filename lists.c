@@ -55,6 +55,7 @@ void free_sep_list(sep_list **head)
 	}
 }
 
+
 /**
  * add_line_node_end - adds a command line at the end
  * of a line_list.
