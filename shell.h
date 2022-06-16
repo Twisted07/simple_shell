@@ -10,6 +10,8 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <signal.h>
+#include <string.h>
+#include <ctype.h>
 #include <limits.h>
 
 #define BUFSIZE 1024
